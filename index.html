@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Average Calculator</title>
+</head>
+<body>
+	
+	<div class="container">
+		<section class="first-section">
+			<input type="number" class="input-number" placeholder="Digit one number">
+			<button class="add-button">ADD</button>
+			<textarea class="list-area" readonly="true"></textarea>
+			<button class="calc-button">CALCULATE</button>
+		</section>
+		
+
+		<section class="second-section">
+			<div class="informations-container">
+				<header>The average is calculated by adding all the elements, and dividing the sum result by the number of elements.</header>
+				<p class="one">Sum of all numbers: <span class="sum-numbers"></span></p>
+				<p class="two">Total elements: <span class="total-elements"></span></p>
+			</div>
+			<textarea class="result-area" readonly="true"></textarea>
+			<button class="clear-button">CLEAR</button>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
